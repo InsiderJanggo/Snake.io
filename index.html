@@ -1,10 +1,46 @@
 <html>
     <head>
       <title>Snake.io</title>
+      <script src="//cdn.jsdelivr.net/npm/phaser@3.22.0/dist/phaser.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/phaser@3.22.0/dist/phaser.min.js"></script>
     </head>
       <body>
         <script src="js/game.js"></script>
-        <script src="//cdn.jsdelivr.net/npm/phaser@3.22.0/dist/phaser.js"></script>
-        <script src="//cdn.jsdelivr.net/npm/phaser@3.22.0/dist/phaser.min.js"></script>
+        
+        <script>           
+//Game Config
+var config = {
+    type: Phaser.AUTO,
+    width: 800,
+    height: 600,
+    physics: {
+        default: 'arcade',
+        arcade: {
+            gravity: { y: 200 }
+        }
+    },
+    scene: {
+        preload: preload,
+        create: create
+    }
+};
+
+//Executing The Game
+var game = new Phaser.Game(config);
+
+//Load The Image
+function preload() {
+    this.load.setBaseURL('http://snake.io');
+
+    this.load.image('sky', 'http://localhost/GameJs/Snake.io/asset/images/sky.jpg');
+}
+
+//Create The Game
+function create()
+{
+    //add sky background
+    this.add.image(800, 600, 'sky');
+}
+            </script>
       </body>
 </html>
