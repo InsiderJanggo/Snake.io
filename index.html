@@ -33,6 +33,7 @@ function preload() {
     this.load.setBaseURL('http://snake.io');
 
     this.load.image('sky', 'http://localhost/GameJs/Snake.io/asset/images/sky.jpg');
+    this.load.image('food', 'https://localhost/GamJs/Snake.io/asset/images/foodball.png')
 }
 
 //Create The Game
@@ -40,6 +41,7 @@ function create()
 {
     //add sky background
     this.add.image(800, 600, 'sky');
+    this.add.image(50, 50, 'food');
 }
             </script>
       </body>
