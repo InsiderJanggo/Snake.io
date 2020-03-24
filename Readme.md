@@ -1,15 +1,15 @@
-///////////===============To Do List:===================//////
-[x] Add A Framework
-[x] Add Background
-[] Add Snake Sprite
-[] Add Food Sprite)(Red Ball Sprite)
-[x] Added The Canvas
-[] Make The Redball Spawn Randomly
+# ///////////===============To Do List:===================//////
+###### [x] Add A Framework
+###### [x] Add Background
+###### [] Add Snake Sprite
+###### [] Add Food Sprite)(Red Ball Sprite)
+###### [x] Added The Canvas
+###### [] Make The Redball Spawn Randomly
 
 
 
-///////=================Credit============================////
-Phaser : https://phaser.io/
+# ///////=================Credit============================////
+###### Phaser : https://phaser.io/
 
 
 
@@ -17,7 +17,7 @@ Phaser : https://phaser.io/
 
 
 
-/////===============LICENSE======================//////
+# /////===============LICENSE======================//////
 MIT License
 
 Copyright (c) 2020 Wisly ong
